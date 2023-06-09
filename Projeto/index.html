@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanear Zona Sul</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+
+<body>
+
+
+    <header class="max-width bg" id="Home">
+        <div class="container">
+            <nav class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="#Home">Inicio</a></li>
+                        <li><a href="#About">Reciclando</a></li>
+                        <li><a href="#Service">Projetos</a></li>
+                        <li><a href="#Contact">Contato</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="mobile-menu" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href="#Home">Inicio</a></li>
+                        <li><a href="#About">Reciclando</a></li>
+                        <li><a href="#Service">Projetos</a></li>
+                        <li><a href="#Contact">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="call">
+                <div class="left">
+                    <h1 class="color-roxa text-gd">SANEAR ZONA SUL</h1>
+                    <p class="color-roxa text-pq">Sua comunidade está enfrentando problemas com o acúmulo de lixo e
+                        resíduos? Apresentamos o Sanear Zona Sul, um projeto desenvolvido especialmente para os
+                        moradores da região sul, com o objetivo de facilitar o contato com a prefeitura e melhorar os
+                        serviços de coleta de lixo, além de implementar lixeiras nas comunidades locais. Junte-se a nós
+                        nessa iniciativa para transformar sua comunidade em um lugar mais limpo e sustentável.</p>
+                </div>
+                <div class="right">
+                    <div class="imagem">
+                        <img src="image/saneazonasul.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top">^</button>
+    </header>
+
+    <!--Aqui Termina o Header-->
+
+    <!--Aqui começa o About-->
+
+    <section class="max-width bg2" id="About">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-verde">Separando seu lixo</h2>
+                <div class="line">
+                    <div class="text-titulo">Meios de separação</div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="box">
+                    <h2 class="color-roxa-1">Lixo Reciclável</h2>
+                    <img src="./image/reciclaaa.jpg" alt="">
+                    <div class="text">
+                        <p class="color-branco">Como descartar</p>
+                        <input type="image" src="./image/flecha.png" alt=""
+                            onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+
+                        <div id="id01" class="modal">
+
+                            <form class="modal-content animate" action="/action_page.php" method="post">
+                                <div class="imgcontainer">
+
+                                </div>
+                                <P>Não misture recicláveis com orgânicos - sobras de alimentos, cascas de frutas e
+                                    legumes.
+                                    Coloque plásticos, vidros, metais e papéis em sacos separados. Lave as embalagens do
+                                    tipo
+                                    longa vida, latas, garrafas e frascos de vidro e plástico. Seque-os antes de
+                                    depositar nos coletores.</P>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <h2 class="color-roxa-1">Lixo Comum</h2>
+                    <img src="./image/caminhao.jpg" alt="">
+                    <div class="text">
+
+                        <p class="color-branco">Como descartar</p>
+                        <input type="image" src="./image/flecha.png" alt=""
+                            onclick="document.getElementById('id02').style.display='block'" style="width:auto;"
+                            class="aaa">
+
+                        <div id="id02" class="modal2">
+
+                            <form class="modal-content animate" action="/action_page.php" method="post">
+                                <div class="imgcontainer">
+
+                                </div>
+                                <P>Como separar o lixo doméstico? Não misture recicláveis com orgânicos - sobras de
+                                    alimentos,
+                                    cascas de frutas e legumes. Coloque plásticos, vidros, metais e papéis em sacos
+                                    separados. Lave as
+                                    embalagens do tipo longa vida, latas, garrafas e frascos de vidro e plástico.</P>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <h2 class="color-roxa-1">Lixo Especial</h2>
+                    <img src="./image/toxico.jpg" alt="">
+                    <div class="text">
+
+                        <p class="color-branco">Onde descartar</p>
+                        <input type="image" src="./image/flecha.png" alt=""
+                            onclick="document.getElementById('id03').style.display='block'" style="width:auto;">
+
+                        <div id="id03" class="modal2">
+
+                            <form class="modal-content animate" action="/action_page.php" method="post">
+                                <div class="imgcontainer">
+
+                                </div>
+                                <P>Coloque plásticos, vidros, metais e papéis em sacos separados. Lave as embalagens
+                                    do tipo longa vida, latas, garrafas e frascos de vidro e plástico. Seque-os antes de
+                                    depositar nos coletores. Papéis devem estar secos. </P>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o About-->
+
+    <!--Aqui começa o Service-->
+
+    <section class="max-width bg" id="Service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-verde">Destaques</h2>
+                    <div class="line">
+                        <div class="text-titulo">Comunidades</div>
+                    </div>
+                </div>
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                <div class="cards">
+                    <label class="card" for="item-1" id="song-1">
+                        <img src="image/destaque1.png" alt="">
+
+                    </label>
+
+                    <label class="card" for="item-2" id="song-2">
+                        <img src="image/destaque2.png">
+
+                    </label>
+
+                    <label class="card" for="item-3" id="song-3">
+                        <img src="image/destaque3.png">
+
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Terminal o Service-->
+
+    <!--Aqui Começa o Contact-->
+
+    <section class="max-width bg2" id="Contact">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-verde">Contatos</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale Conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Entre em contato com a prefeitura!</h1>
+                        <form action="">
+                            <input type="text" placeholder="Nome Completo">
+                            <input type="email" placeholder="Seu E-mail">
+                            <input type="comunidade" placeholder="Sua comunidade">
+                            <input type="submit" value="Enviar">
+                        </form>
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Contatos da equipe Sanear</h1>
+                        <div class="info">
+                            <div class="text">
+                                <p>Gerente de Projetos</p>
+                                Juliana Freire (8198683-6252)
+                                <p>Gerente de Planejamento</p>
+                                Marcela Christine (8198583-2042)
+                                <br>
+                                <p>Gerente Executivo</p>
+                                Michael Drummond (8198898-2042)
+                                <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o Contact-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer>
+        <div class="container">
+
+            <p class="text-pq">Copyright © 2023 <span class="color-laranja">SANEAR ZONA SUL</span> All Rights Reserved
+            </p>
+            <p class="text-pq">Tel: (81)8484-5858</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+
+        // Menu-Mobile
+
+
+        var modal = document.getElementById('id01');
+        var modal2 = document.getElementById('id02');
+        var modal3 = document.getElementById('id03');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+
+            }
+            else if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+
+            else if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+        }
+
+
+
+
+
+
+
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+        // Scrollbar Personalizado
+
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        });
+
+
+
+    </script>
+</body>
+
+</html>
